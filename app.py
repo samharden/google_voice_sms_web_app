@@ -9,7 +9,7 @@ from googlevoice import Voice
 DEBUG = True
 app = Flask(__name__)
 app.config.from_object(__name__)
-app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
+app.config['SECRET_KEY'] = '12345'
 voice = Voice()
 ##Put in your google voice account info below this line where indicated:
 voice.login('your_email_address@gmail.com', 'your_gmail_password')
